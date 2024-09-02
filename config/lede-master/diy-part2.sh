@@ -30,6 +30,7 @@ sed -i 's/192.168.1.1/192.168.31.4/g' package/base-files/files/bin/config_genera
 #
 # Add luci-app-amlogic
 git clone https://github.com/ophub/luci-app-amlogic.git package/luci-app-amlogic
+git clone https://github.com/aircrack-ng/rtl8812au.git package/kernel/rtl8812au-ac
 
 # Fix runc version error
 # rm -rf ./feeds/packages/utils/runc/Makefile
