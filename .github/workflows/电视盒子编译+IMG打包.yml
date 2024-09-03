@@ -140,7 +140,7 @@ on:
           - 5.15.1_6.1.1
           - 5.4.1
           - 5.10.110
-          - 5.15.1
+          - 5.15.150
           - 6.1.107
       auto_kernel:
         description: "Auto use the latest kernel"
