@@ -140,6 +140,7 @@ on:
           - 5.15.1_6.1.1
           - 5.4.1
           - 5.15.164
+          - 5.15.166
           - 5.10.110
           - 5.15.150
           - 6.1.107
@@ -155,6 +156,7 @@ on:
         type: choice
         options:
           - ophub/kernel
+          - WlphM/kernel
           - breakings/OpenWrt
       kernel_usage:
         description: "Set the tags of the stable kernel."
