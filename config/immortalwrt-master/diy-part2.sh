@@ -24,6 +24,7 @@ sed -i 's/192.168.1.1/192.168.31.4/g' package/base-files/files/bin/config_genera
 #
 # Add luci-app-amlogic
 git clone https://github.com/ophub/luci-app-amlogic.git package/luci-app-amlogic
+git clone https://github.com/UnblockNeteaseMusic/luci-app-unblockneteasemusic.git package/luci-app-unblockneteasemusic
 
 # Apply patch
 # git apply ../config/patches/{0001*,0002*}.patch --directory=feeds/luci
